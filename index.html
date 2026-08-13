@@ -3,16 +3,46 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Aditeya Prajapati, embodied AI, robot learning, and machine learning researcher.">
-  <title>Aditeya Prajapati | Research</title>
+  <meta name="description" content="Aditeya Prajapati is an embodied AI and machine learning researcher at USC working on robot learning, vision-language-action models, and robust AI systems.">
+  <meta name="author" content="Aditeya Prajapati">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://ad1prajapati.github.io/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Aditeya Prajapati | Embodied AI and Machine Learning">
+  <meta property="og:description" content="Embodied AI and machine learning researcher at USC working on robot learning, VLA models, and robust AI systems.">
+  <meta property="og:url" content="https://ad1prajapati.github.io/">
+  <meta property="og:image" content="https://ad1prajapati.github.io/assets/portrait-final.jpeg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Aditeya Prajapati | Embodied AI and Machine Learning">
+  <meta name="twitter:description" content="Embodied AI and machine learning researcher at USC.">
+  <meta name="twitter:image" content="https://ad1prajapati.github.io/assets/portrait-final.jpeg">
+  <title>Aditeya Prajapati | Embodied AI and Machine Learning</title>
   <link rel="stylesheet" href="css/xp.css">
   <script src="theme.js" defer></script>
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Aditeya Prajapati",
+      "url": "https://ad1prajapati.github.io/",
+      "image": "https://ad1prajapati.github.io/assets/portrait-final.jpeg",
+      "email": "mailto:aditeyak@usc.edu",
+      "jobTitle": "Machine Learning Researcher",
+      "affiliation": {"@type": "CollegeOrUniversity", "name": "University of Southern California"},
+      "knowsAbout": ["Embodied AI", "Robot Learning", "Vision-Language-Action Models", "Offline Reinforcement Learning", "Machine Learning"],
+      "sameAs": [
+        "https://www.linkedin.com/in/aditeyaprajapati/",
+        "https://github.com/AD1PRAJAPATI",
+        "https://scholar.google.com/citations?user=WuXQ9nkAAAAJ&hl=en"
+      ]
+    }
+  </script>
 </head>
 <body>
   <header class="site-header">
     <a class="brand" href="#top"><span class="xp-mark" aria-hidden="true">AP</span> Aditeya Prajapati</a>
     <nav aria-label="Main navigation">
-      <a href="#research">Research</a><a href="#publications">Publications</a><a href="#experience">Experience</a><a href="#about">About</a>
+      <a href="#research">Research</a><a href="#projects">Projects</a><a href="#publications">Publications</a><a href="#experience">Experience</a><a href="#about">About</a>
       <button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false">Dark mode</button>
     </nav>
   </header>
@@ -24,7 +54,7 @@
         <img class="portrait" src="assets/portrait-final.jpeg" alt="Aditeya Prajapati at a historic building">
         <div>
           <p class="eyebrow">M.S. Computer Science (AI) · University of Southern California</p>
-          <h1>I build machine learning systems that make robots more reliable.</h1>
+          <h1>Aditeya Prajapati builds machine learning systems that make robots more reliable.</h1>
           <p class="lead">I am an embodied AI researcher at USC working on policy routing, robust robot evaluation, and learning from limited data. I build systems that turn ambitious ideas into robots that work beyond the lab.</p>
           <p>I currently work with <a href="https://glamor.usc.edu/" target="_blank" rel="noreferrer">Jesse Thomason</a> in USC’s GLAMOR Lab and <a href="https://liralab.usc.edu/" target="_blank" rel="noreferrer">Erdem Bıyık</a> in the LIRA Lab. My work brings together offline reinforcement learning, vision-language-action models, and robust perception for real-world robotics.</p>
           <div class="actions">
@@ -48,8 +78,33 @@
       </div>
     </section>
 
+    <section id="news" class="xp-window">
+      <div class="window-titlebar"><span>03 / News</span></div>
+      <div class="window-content">
+        <h2>Recent updates</h2>
+        <div class="news-list">
+          <article><time datetime="2026-07">Jul 2026</time><p>Joined USC’s LIRA Lab to work on data-efficient learning and social attention for trajectory forecasting.</p></article>
+          <article><time datetime="2026-01">Jan 2026</time><p>Joined USC’s GLAMOR Lab, where I work on policy routing and robust evaluation for language-guided robots.</p></article>
+          <article><time datetime="2026">2026</time><p>Submitted SWAP and SAFECAST, two projects focused on policy routing and robust failure detection for vision-language-action models.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="xp-window">
+      <div class="window-titlebar"><span>04 / Selected projects</span></div>
+      <div class="window-content">
+        <div class="section-intro"><div><h2>Selected projects</h2><p>A few systems I have helped take from research questions to measurable outcomes.</p></div></div>
+        <div class="project-grid">
+          <article class="project-card"><p class="project-type">Robot learning · Offline RL</p><h3>SWAP: Stepwise Action Policy Routing</h3><p>No single robot policy excels at every part of a task. SWAP learns to choose among VLA and control policies at each decision step, turning policy selection into an offline reinforcement learning problem.</p><p class="project-result">Up to 33% higher real-world task success and 28.3% shorter successful trajectories.</p></article>
+          <article class="project-card"><p class="project-type">Robustness · VLA evaluation</p><h3>SAFECAST: Failure Detection for Robot Policies</h3><p>SAFECAST uses contrast-set perturbations and conformal prediction to detect when a robot policy is likely to fail under visual, environmental, or instruction changes.</p><p class="project-result">Designed to make deployment-time failures visible before they become costly rollouts.</p></article>
+          <article class="project-card"><p class="project-type">Generative AI · Computer vision</p><h3>AI Photoshoot Automation</h3><p>At PixelBin, I helped build an enterprise image-generation system using apparel segmentation, Flux Fill LoRA, and ControlNet for controllable synthetic model imagery.</p><p class="project-result">Reduced physical model-generation overhead by 40% and supported production-scale image workflows.</p></article>
+          <article class="project-card"><p class="project-type">NLP · Socio-technical systems</p><h3>Hyperloop Opinion and Viability Analysis</h3><p>I developed an end-to-end pipeline that collected over 10,000 Hyperloop discussions, modeled public concerns, and connected language signals to transport-economics simulations.</p><p class="project-result">Led to multiple publications and helped support a second-place finish at European Hyperloop Week 2024.</p></article>
+        </div>
+      </div>
+    </section>
+
     <section id="publications" class="xp-window">
-      <div class="window-titlebar"><span>03 / Publications</span></div>
+      <div class="window-titlebar"><span>05 / Publications</span></div>
       <div class="window-content">
         <div class="section-intro"><div><h2>Publications</h2><p>Selected academic work across robot learning, multimodal AI, and socio-technical systems.</p></div><a class="text-link" href="https://scholar.google.com/citations?user=WuXQ9nkAAAAJ&amp;hl=en" target="_blank" rel="noreferrer">Google Scholar ↗</a></div>
         <ol class="publication-list">
@@ -65,7 +120,7 @@
     </section>
 
     <section id="experience" class="xp-window">
-      <div class="window-titlebar"><span>04 / Experience</span></div>
+      <div class="window-titlebar"><span>06 / Experience</span></div>
       <div class="window-content">
         <h2>Experience</h2>
         <div class="timeline">
@@ -79,7 +134,7 @@
 
     <div class="two-column">
       <section class="xp-window">
-        <div class="window-titlebar"><span>05 / Education</span></div>
+        <div class="window-titlebar"><span>07 / Education</span></div>
         <div class="window-content compact">
           <h2>Education</h2>
           <article class="education"><h3>University of Southern California</h3><p>M.S. in Computer Science (Artificial Intelligence)</p><span>Jan 2026 to Dec 2027 · Los Angeles, CA</span></article>
@@ -87,7 +142,7 @@
         </div>
       </section>
       <section class="xp-window">
-        <div class="window-titlebar"><span>06 / Toolkit</span></div>
+        <div class="window-titlebar"><span>08 / Toolkit</span></div>
         <div class="window-content compact">
           <h2>Toolkit</h2>
           <p><strong>ML:</strong> PyTorch, TensorFlow, Hugging Face, scikit-learn, CUDA</p>
@@ -98,7 +153,7 @@
     </div>
 
     <section id="about" class="xp-window">
-      <div class="window-titlebar"><span>07 / About</span></div>
+      <div class="window-titlebar"><span>09 / About</span></div>
       <div class="window-content about-content">
         <figure><img src="assets/childhood.png" alt="A childhood photo of Aditeya Prajapati"><figcaption>Me, before I learned that every answer comes with three new ablations.</figcaption></figure>
         <div><h2>A little more personally</h2><p>I care about technology that is useful outside a demo: systems that people can understand, trust, and build on. My path from Mumbai to Los Angeles has taken me through computer vision, language, large-scale data, and robotics, and I enjoy the process of connecting ideas across those areas.</p><p>Outside the lab, I love sports and have played volleyball at the state level. It has taught me the same things I value in research: preparation, communication, adapting under pressure, and showing up for the team.</p><p class="highlight">Currently seeking research internships, research collaborations, and machine learning roles.</p></div>
